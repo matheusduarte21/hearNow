@@ -108,7 +108,7 @@ const Index = () => {
 
           {searchResult && (
             <div className="w-full animate-fade-in">
-              <MusicResult result={searchResult} />
+              <MusicResult result={searchResult?.result} />
             </div>
           )}
 
